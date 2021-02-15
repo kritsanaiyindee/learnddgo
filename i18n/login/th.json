@@ -1,0 +1,23 @@
+{
+  "labels": {
+    "lbl_login_header": "เข้าสู่ระบบ",
+    "lbl_emailid": "อีเมล์",
+    "lbl_password": "รหัสผ่าน",
+    "lbl_keep_me_sign": "จดจำไว้",
+    "btn_login": "เข้าสู่ระบบ",
+    "lbl_forgot_password": "ลืมรหัสผ่าน?.",
+    "lbl_contact_admin": "ติดต่อผู้ดูแลระบบ.",
+    "lbl_thai": "ไทย",
+    "lbl_eng": "อังกฤษ"
+  },
+  "placeholders": {
+    "txt_emailid": "อีเมล์",
+    "txt_password": "รหัสผ่าน"
+  },
+  "messages": {
+    "e0001": {
+      "template": true,
+      "messages": "Age: ${age} invalid"
+    }
+  }
+}

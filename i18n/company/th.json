@@ -1,0 +1,96 @@
+{
+  "labels": {
+    "lbl_company_header": "ข้อมูลผู้ใช้งาน",
+    "lbl_company_name": "ชื่อบริษัท",
+    "lbl_company_id": "รหัสบริษัท",
+    "btn_cancel": "ยกเลิก",
+    "btn_save": "บันทึก",
+    "btn_filter": "กรอง",
+    "btn_add": "+ เพิ่ม",
+    "lbl_list_of_company":"รายชื่อบริษัท",
+    "tab_company":"บริษัท",
+    "lbl_calendar_header":"ตารางรายเดือน",
+    "lbl_performance_header":"ประสิทธิภาพ",
+    "company_id":"รหัสบริษัท",
+    "company_name":"ชื่อบริษัท",
+    "pop_company_id":"รหัสบริษัท",
+    "pop_company_name":"ชื่อบริษัท",
+    "lbl_group_name":"ชื่อกลุ่ม",
+    "lbl_group_id":"รหัสกลุ่ม",
+    "lbl_group_company_id":"รหัสบริษัท",
+    "btn_group_filter": "กรอง",
+    "txt_group_company_id":"รหัสบริษัท"
+
+  },
+  "kendoGridHeaders": {
+    "grd_company": {
+      "company_id": "รหัสบริษัท",
+      "company_name": "ชื่อบริษัท"
+    }
+  },
+    "kendoGridHeaders": {
+    "grd_company": {
+      "company_id": "รหัสบริษัท",
+      "company_name": "ชื่อบริษัท"
+    }
+  },
+  "placeholders": {
+    "txt_company_name": "กรอกชื่อบริษัท",
+    "txt_company_id": "กรอกรหัสบริษัท",
+    "txt_group_id": "กรอกรหัสกลุ่ม",
+    "txt_group_name": "กรอกชื่อกลุ่ม",
+    "txt_group_company_id": "กรอกรหัสกลุ่ม",
+    "det_txt_company_id": "กรอกรหัสบริษัท"
+    
+
+    
+  },
+  "messages": {
+    "errors": {
+      "e00001": {
+        "elementId": "txt_company_name",
+        "type": "text",
+        "feedbackId": "err_company_name",
+        "template": false,
+        "message": "ยังไม่ได้ระบุชื่อบริษัท"
+      },
+      "e00002": {
+        "elementId": "txt_company_id",
+        "type": "text",
+        "feedbackId": "err_company_id",
+        "template": false,
+        "message": "ยังไม่ได้ระบุรหัสบริษัท"
+      },
+      "e00003": {
+        "elementId": "pop_txt_company_name",
+        "type": "text",
+        "feedbackId": "err_pop_company_name",
+        "template": false,
+        "message": "ยังไม่ได้ระบุชื่อบริษัท"
+      } ,
+      "e00004": {
+        "elementId": "txt_group_name",
+        "type": "text",
+        "feedbackId": "err_group_name",
+        "template": false,
+        "message": "ยังไม่ได้ระบุรหัสกลุ่ม"
+      },
+      "e00005": {
+        "elementId": "txt_group_id",
+        "type": "text",
+        "feedbackId": "err_group_id",
+        "template": false,
+        "message": "ยังไม่ได้ระบุรหัสบริษัท"
+      },
+      "e00006": {
+        "elementId": "det_txt_company_id",
+        "type": "text",
+        "feedbackId": "err_detial_company_id",
+        "template": false,
+        "message": "ยังไม่ได้ระบุรหัสบริษัท"
+      }
+
+      
+    }
+  }
+}

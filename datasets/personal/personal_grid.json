@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "message_code": "PSI00001",
+  "message": "Read data success",
+  "total": 2,
+  "datas": [
+    {
+      "user_name": "name0001",
+      "first_name": "first_name1",
+      "last_name": "last_name1",
+      "user_email": "user_email1",
+      "user_company": "user_company1",
+      "user_mobile": "user_mobile1",
+      "user_password": "user_password1",
+      "user_role": "Student",
+      "user_group": "user_group1"
+    },
+    {
+      "user_name": "name0002",
+      "first_name": "first_name2",
+      "last_name": "last_name2",
+      "user_email": "user_email2",
+      "user_company": "user_company2",
+      "user_mobile": "user_mobile2",
+      "user_password": "user_password2",
+      "user_role": "Student",
+      "user_group": "user_group2"
+    },
+    {
+      "user_name": "name0003",
+      "first_name": "first_name3",
+      "last_name": "last_name3",
+      "user_email": "user_email3",
+      "user_company": "user_company3",
+      "user_mobile": "user_mobile3",
+      "user_password": "user_password3",
+      "user_role": "Student",
+      "user_group": "user_group3"
+    },
+    {
+      "user_name": "name0004",
+      "first_name": "first_name4",
+      "last_name": "last_name4",
+      "user_email": "user_email4",
+      "user_company": "user_company4",
+      "user_mobile": "user_mobile4",
+      "user_password": "user_password4",
+      "user_role": "Student",
+      "user_group": "user_group4"
+    },
+    {
+      "user_name": "name0005",
+      "first_name": "first_name5",
+      "last_name": "last_name5",
+      "user_email": "user_email5",
+      "user_company": "user_company5",
+      "user_mobile": "user_mobile5",
+      "user_password": "user_password5",
+      "user_role": "Admin",
+      "user_group": "user_group5"
+    }
+  ]
+}

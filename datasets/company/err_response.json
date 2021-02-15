@@ -1,0 +1,17 @@
+{
+  "success": false,
+  "message_code": "PSE00001",
+  "message": "invalid request",
+  "total": 0,
+  "forward_url": "https://error.com",
+  "errors": [
+    {
+      "message_code": "e00001",
+      "message": "Company Nanme is require"
+    },
+    {
+      "message_code": "e00002",
+      "message": "Company ID is require"
+    }
+  ]
+}

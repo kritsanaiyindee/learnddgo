@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "message_code": "PSI00001",
+  "message": "Read data success",
+  "total": 5,
+  "datas": [
+    {
+      "grp_id": "G0001",
+      "user_id": "USR0001",
+      "user_name": "User Name 1",
+      "user_full_name": "User Name 1",
+      "progress": "50"
+    },
+    {
+      "grp_id": "G0001",
+      "user_id": "USR0002",
+      "user_name": "User Name 2",
+      "user_full_name": "User Name 1",
+      "progress": "50"
+    },
+    {
+      "grp_id": "G0002",
+      "user_id": "USR0003",
+      "user_name": "User Name 3",
+      "user_full_name": "User Name 1",
+      "progress": "50"
+    },
+    {
+      "grp_id": "G0003",
+      "user_id": "USR0004",
+      "user_name": "User Name 4",
+      "user_full_name": "User Name 1",
+      "progress": "50"
+    },
+    {
+      "grp_id": "G0002",
+      "user_id": "USR0005",
+      "user_name": "User Name 5",
+      "user_full_name": "User Name 1",
+      "progress": "50"
+    }
+
+  ]
+}

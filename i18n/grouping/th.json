@@ -1,0 +1,99 @@
+{
+  "labels": {
+    "lbl_grouping_header": "ข้อมูลกลุ่มผู้ใช้งาน",
+    "lbl_group_name": "ชื่อกลุ่ม",
+    "lbl_group_id": "รหัสบริษัท",
+    "lbl_company_id":"รหัสบริษัท",
+    "btn_cancel": "ยกเลิก",
+    "btn_save": "บันทึก",
+    "btn_filter": "กรอง",
+    "btn_add": "+ เพิ่มกลุ่ม",
+    "lbl_det_full_name":"Fullname",
+    "lbl_det_user_name":"User Name",
+    "lbl_det_user_id":"User ID",
+    "lbl_pop_group_name":"ชื่อกลุ่ม",
+    "lbl_calendar_header":"ตารางรายเดือน",
+    "lbl_performance_header":"ประสิทธิภาพ"
+
+    
+    
+
+  },
+  "kendoGridHeaders": {
+    "grd_company": {
+      "company_id": "รหัสบริษัท",
+      "company_name": "ชื่อบริษัท"
+    }
+  },
+    "kendoGridHeaders": {
+    "grd_company": {
+      "company_id": "รหัสบริษัท",
+      "company_name": "ชื่อบริษัท"
+    }
+  },
+  "placeholders": {
+    "txt_company_id": "กรอกรหัสบริษัท",
+    "txt_group_name": "กรอกชื่อกลุ่ม",
+    "txt_group_id": "กรอกรหัสกลุ่ม",
+    "det_txt_user_id": "กรอกรหัสผู้ใช้",
+    "det_txt_user_name": "กรอก Username",
+    "det_txt_full_name": "กรอกชื่อผู้ใช้",
+    "det_txt_group_name": "กรอกชื่อกลุ่ม"     
+    
+  },
+  "messages": {
+    "errors": {
+      "e00001": {
+        "elementId": "txt_company_name",
+        "type": "text",
+        "feedbackId": "err_company_name",
+        "template": false,
+        "message": "ยังไม่ได้ระบุชื่อบริษัท"
+      },
+      "e00002": {
+        "elementId": "txt_company_id",
+        "type": "text",
+        "feedbackId": "err_company_id",
+        "template": false,
+        "message": "ยังไม่ได้ระบุรหัสบริษัท"
+      },
+      "e00003": {
+        "elementId": "pop_txt_company_name",
+        "type": "text",
+        "feedbackId": "err_pop_company_name",
+        "template": false,
+        "message": "ยังไม่ได้ระบุชื่อบริษัท"
+      } ,
+      "e00004": {
+        "elementId": "det_txt_full_name",
+        "type": "text",
+        "feedbackId": "err_det_txt_full_name",
+        "template": false,
+        "message": "ยังไม่ได้ระบุ Full Name"
+      },
+      "e00005": {
+        "elementId": "det_txt_user_name",
+        "type": "text",
+        "feedbackId": "err_det_txt_user_name",
+        "template": false,
+        "message": "ยังไม่ได้ระบุรหัส User Name"
+      },
+      "e00006": {
+        "elementId": "det_txt_user_id",
+        "type": "text",
+        "feedbackId": "err_det_txt_user_id",
+        "template": false,
+        "message": "ยังไม่ได้ระบุรหัสผู้ใช้งาน"
+      },
+      "e00007": {
+        "elementId": "det_txt_group_name",
+        "type": "text",
+        "feedbackId": "err_det_txt_group_name",
+        "template": false,
+        "message": "ยังไม่ได้ระบุชื่อกลุ่ม"
+      }
+
+      
+    }
+  }
+}

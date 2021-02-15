@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="kongsak limpitikeat">
+    <meta name="keyword" content="">
+    <title></title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="grouping.css" rel="stylesheet">
+
+</head>
+<body class="c-app c-no-layout-transition">
+    <!--TODO: start sidebar -->
+    <div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
+        <div class="c-sidebar-brand d-md-down-none">
+            <svg class="c-sidebar-brand-full" width="118" height="46" alt="Kaileak Logo">
+                <use xlink:href="../assets/brand/coreui-pro.svg#full"></use>
+            </svg>
+            <svg class="c-sidebar-brand-minimized" width="46" height="46" alt="Kaileak Logo">
+                <use xlink:href="../assets/brand/coreui-pro.svg#signet"></use>
+            </svg>
+        </div>
+        <!--TODO: start left sidebar -->
+        <ul class="c-sidebar-nav">
+            <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" href="#">
+                    <svg class="c-sidebar-nav-icon">
+                        <use xlink:href="../vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
+                    </svg>
+                    <span id="lbl_mnu_dashboard">Dashboard</span>
+
+                </a>
+            </li>
+            <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" href="#">
+                    <svg class="c-sidebar-nav-icon">
+                        <use xlink:href="../vendors/@coreui/icons/sprites/solid.svg#cis-building"></use>
+                    </svg>
+                    <span id="lbl_mnu_org">Organization</span>
+                </a>
+            </li>
+            <li class="c-sidebar-nav-dropdown">
+                <a class="c-sidebar-nav-dropdown-toggle" href="#">
+                    <svg class="c-sidebar-nav-icon">
+                        <use xlink:href="../vendors/@coreui/icons/sprites/solid.svg#cis-house"></use>
+                    </svg>
+                    <span id="">Inventory</span>
+                </a>
+                <ul class="c-sidebar-nav-dropdown-items">
+                    <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="#">Categories</a></li>
+                    <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="#">Attribute</a></li>
+                    <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="#">Variants</a></li>
+                    <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="#">Products</a></li>
+                </ul>
+
+            </li>
+        </ul>
+        <!--TODO: end left sidebar -->
+        <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent"
+        data-class="c-sidebar-unfoldable"></button>
+    </div>
+    <!--TODO: end sidebar -->
+
+    <!--TODO: start application bar -->
+    <div class="c-sidebar c-sidebar-lg c-sidebar-light c-sidebar-right c-sidebar-overlaid" id="aside">
+        <button class="c-sidebar-close c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-show">
+            <svg class="c-icon">
+                <use xlink:href="../vendors/@coreui/icons/svg/free.svg#cil-x"></use>
+            </svg>
+        </button>
+    </div>
+    <!--TODO: end application bar -->
+
+    <div class="c-wrapper">
+        <header class="c-header c-header-light c-header-fixed">
+            <button class="c-header-toggler c-class-toggler d-lg-none mfe-auto" type="button" data-target="#sidebar"
+            data-class="c-sidebar-show">
+            <svg class="c-icon c-icon-lg">
+                <use xlink:href="../vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
+            </svg>
+        </button>
+        <a class="c-header-brand d-lg-none c-header-brand-sm-up-center" href="#">
+            <svg width="118" height="46" alt="CoreUI Logo">
+                <use xlink:href="../assets/brand/coreui-pro.svg#full"></use>
+            </svg>
+        </a>
+        <button class="c-header-toggler c-class-toggler mfs-3 d-md-down-none" type="button" data-target="#sidebar"
+        data-class="c-sidebar-lg-show" responsive="true">
+        <svg class="c-icon c-icon-lg">
+            <use xlink:href="../vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
+        </svg>
+    </button>
+    <ul class="c-header-nav mfs-auto">
+        <li class="c-header-nav-item dropdown mx-2">
+            <a id="dp_lang" class="c-header-nav-link" data-toggle="dropdown" href="#" role="button"
+            aria-haspopup="true"
+            aria-expanded="false">
+            <svg class="c-icon c-icon-xl">
+                <use id="dp_lang_img" xlink:href="../vendors/@coreui/icons/sprites/flag.svg#cif-gb"></use>
+            </svg>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right p-0">
+            <a id="dp_lang-gb" class="dropdown-item" href="#">
+                <svg class="c-icon mfe-2 c-icon-xl">
+                    <use id="dp_lang_img-gb"
+                    xlink:href="../vendors/@coreui/icons/sprites/flag.svg#cif-gb"></use>
+                </svg>
+            English</a>
+            <a id="dp_lang-th" class="dropdown-item" href="#">
+                <svg class="c-icon mfe-2 c-icon-xl">
+                    <use id="dp_lang_img-th"
+                    xlink:href="../vendors/@coreui/icons/sprites/flag.svg#cif-th"></use>
+                </svg>
+            Thai</a>
+        </div>
+    </li>
+    <li class="c-header-nav-item dropdown">
+        <a class="c-header-nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+        aria-expanded="false">
+        <div class="c-avatar"><img class="c-avatar-img" src="../assets/img/avatars/6.jpg"
+         alt="user@email.com">
+     </div>
+ </a>
+ <div class="dropdown-menu dropdown-menu-right pt-0"><a class="dropdown-item" href="#">
+    <svg class="c-icon mfe-2">
+        <use xlink:href="../vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
+    </svg>
+    Updates<span class="badge badge-info mfs-auto">42</span></a><a class="dropdown-item" href="#">
+        <svg class="c-icon mfe-2">
+            <use xlink:href="../vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
+        </svg>
+    Logout</a></div>
+</li>
+<button class="c-header-toggler c-class-toggler mfe-md-3" type="button" data-target="#aside"
+data-class="c-sidebar-show">
+<svg class="c-icon c-icon-lg">
+    <use xlink:href="../vendors/@coreui/icons/svg/free.svg#cil-applications-settings"></use>
+</svg>
+</button>
+</ul>
+</header>
+<div id="content" class="c-body" style="display: none">
+    <main class="c-main p-2">
+        <div class="container-fluid p-2">
+            <div class="fade-in">
+                <!-- TODO:start page content here-->
+                <div class="row">
+                    <div class="col-md-8 mb-4">
+                        <div class="nav-tabs-boxed" >
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item h6" ><a class="nav-link  text-warning" data-toggle="tab" href="#company" role="tab" aria-controls="company" >COMPANY</a></li>
+                                <li class="nav-item h6"><a class="nav-link   text-info" data-toggle="tab" href="#usrmgt" role="tab" aria-controls="usrmgt">USER</a></li>
+                                <li class="nav-item h6"><a class="nav-link active  text-success" data-toggle="tab" href="#grping" role="tab" aria-controls="grping">GROUPING</a></li>
+                                <li class="nav-item h6"><a class="nav-link text-primary" data-toggle="tab" href="#report" role="tab" aria-controls="messages">REPORT</a></li>
+                            </ul>
+                            <div class="tab-content"  >
+                                <div class="tab-pane active"  id="grping" role="tabpanel">
+                                    <div class="row">
+                                        <div class="col-md-10  h4">
+                                            <label class="mx-1" id="lbl_grouping_header"></label>
+                                        </div> 
+                                        <div class="col-md-2  col-sm2">
+                                            <button class="btn  btn-pill   btn-block btn-ghost-danger active" type="button" aria-pressed="true" id="btn_add"></button>
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group  col-sm-3">
+                                            <label  id="lbl_group_name" for="txt_group_name"></label>
+                                            <input class="form-control" id="txt_group_name" type="text" >
+                                            <div id="err_company_name" class="k-invalid-feedback"></div>
+                                        </div>
+                                        <div class="form-group   col-sm-3">
+                                            <label  id="lbl_group_id" for="txt_group_id"></label>
+                                            <input class="form-control" id="txt_group_id" type="text" >
+                                            <div id="err_company_id" class="k-invalid-feedback"></div>
+                                        </div>
+                                        <div class="form-group   col-sm-3">
+                                            <label  id="lbl_company_id" for="txt_company_id"></label>
+                                            <input class="form-control" id="txt_company_id" type="text" >
+                                            <div id="err_company_id" class="k-invalid-feedback"></div>
+                                        </div>
+                                        <div class="form-group   col-md-1" >
+                                        </div>
+                                        <div class="form-group   col-md-2" >
+                                            <label class="mx-1" >&nbsp;</label>
+                                            <button class="btn  btn-pill  btn-block btn-primary" type="button" aria-pressed="true" id="btn_filter"></button>
+                                        </div>
+                                    </div>                 
+                                    <div class="row" >
+                                        <div class="col-md-12">
+                                          <div class="form-group">
+                                            <div id="grid">
+                                                <!--<label id="lbl_datatable" for="grd_personal">Personal Information</label>-->
+                                                <div id="grd_group"  ></div>
+                                                <script type="text/x-kendo-template" id="button_template">
+                                                    <div class="editBtnContainer">
+                                                        <a href="\\#" class="k-button k-button-icontext k-grid-custom" title="Edit">Edit</a>
+                                                    </div>
+                                                    <div class="updateCancelContainer">
+                                                        <a role="button" class="k-button k-button-icontext k-grid-update" href="\\#">
+                                                            <span class="k-icon k-i-check"></span>Update</a>
+                                                            <a role="button" class="k-button k-button-icontext k-grid-cancel" href="\\#">
+                                                                <span class="k-icon k-i-cancel"></span>Cancel</a>
+                                                            </div>
+                                                        </script>
+                                                    </div>  
+                                                </div>                               
+                                            </div>     
+                                            <!-- /.row-->
+
+                                        </div>
+                                        
+                                    </div><div class="tab-pane " id="usrmgt" role="tabpanel">#user</div>
+                                    <div class="tab-pane" id="company" role="tabpanel">#company</div>
+                                    <div class="tab-pane" id="report" role="tabpanel">#report</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                      <div class="col-md-4 ">
+                    <div class="card card-accent-info m-0">
+                        <div class="card-header h2" ><label id="lbl_calendar_header" ></label></div>
+                        <div class="card-body">
+                            <div id="special-days">
+                                <div id="calendar"></div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="card card-accent-info m-0">
+                        <div class="card-header h2" ><label id="lbl_performance_header" ></label></div>
+                        <div class="card-body">
+                            <div id="chartOverall"  ></div>
+                            <div id="chartMindset"   ></div>
+                        </div>
+                    </div>
+                </div>
+                        <!-- TODO:End page content here-->
+                    </div>
+                </main>
+            </div>
+            <footer id="footer" class="c-footer" style="display: none">
+                <!--TODO: start footer -->
+                <div><a href="#">Kaileak</a> © 2020 Kongsak Limpitikeat.</div>
+                <div class="mfs-auto">Powered by&nbsp;<a href="#">Kongsak Limpitikeat</a></div>
+                <!--TODO: end footer -->
+            </footer>
+        </div>
+        <script src="../vendors/jquery/jquery-3.5.1.min.js"></script>
+        <script type="module" src="grouping.js"></script>
+        <!-- CoreUI and necessary plugins-->
+        <script src="../vendors/@coreui/coreui-pro/js/coreui.bundle.min.js"></script>
+        <!--[if IE]><!-->
+        <script src="../vendors/@coreui/icons/js/svgxuse.min.js"></script>
+        <!--<![endif]-->
+        <!-- Plugins and scripts required by this view-->
+        <script src="../vendors/@coreui/utils/js/coreui-utils.js"></script>
+
+        <script id="popup-editor" type="text/x-kendo-template">
+            #if(data.isNew()) {#
+            <div class="form-inline ">
+                <label  id="lbl_pop_group_name" for="det_txt_group_name">Group Name</label>
+                <input class="form-control" id="det_txt_group_name" type="text" >
+                <div id="err_det_txt_group_name" class="k-invalid-feedback"></div>
+            </div>
+            #} else {#
+
+            <div class="form-inline">
+                <label  id="lbl_pop_group_name" for="det_txt_group_name">Group Name</label>
+                <input class="form-control" id="det_txt_group_name" type="text" data-bind="value:group_name"  >
+                <div id="err_det_txt_group_name" class="k-invalid-feedback"></div>
+            </div> 
+            #}#
+        </script>
+        <script type="text/x-kendo-template" id="group_template">
+            <div class="row   col-sm-12  col-md-12">
+                <div class="form-group  col-sm-2  col-md-3">
+                    <label  id="lbl_det_full_name" for="det_txt_full_name">FullName</label>
+                    <input class="form-control" id="det_txt_full_name" type="text" >
+                    <div id="err_det_txt_full_name" class="k-invalid-feedback"></div>
+                </div>
+                <div class="form-group  col-sm-2  col-md-3">
+                    <label  id="lbl_det_user_name" for="det_txt_user_name">User Name</label>
+                    <input class="form-control" id="det_txt_user_name" type="text" >
+                    <div id="err_det_txt_user_name" class="k-invalid-feedback"></div>
+                </div>
+                <div class="form-group  col-sm-2  col-md-3">
+                    <label  id="lbl_det_user_id" for="det_txt_user_id">User ID</label>
+                    <input class="form-control" id="det_txt_user_id" type="text" >
+                    <div id="err_det_txt_user_id" class="k-invalid-feedback"></div>
+                </div>
+                <div class="form-group   col-sm-1  col-md-1" >
+                </div>
+                <div class="form-group   col-sm-2  col-md-2" >
+                    <label class="mx-1" >&nbsp;</label>
+                    <button class="btn  btn-pill  btn-block btn-primary" type="button" aria-pressed="true" id="btn_user_filter">Filter</button>
+                </div>
+            </div>
+            <div class="detailTabstrip">        
+                <div class="grid_user"></div>        
+            </div>
+        </script>
+
+        <script src="../js/main.js"></script>
+        <script>
+    // TODO: start initial require js script variable data
+    let currentLang = "th";
+    const i18nUrl = "../i18n/grouping";
+    // TODO: end initial require js script variable data
+</script>
+</body>
+</html>

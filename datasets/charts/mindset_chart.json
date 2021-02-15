@@ -1,0 +1,38 @@
+{
+	"success": true,
+	"message_code": "PSI00001",
+	"message": "Read data success",
+	"total": 5,
+	"datas":[
+		{
+			"year": "2015",
+			"user_val": 10,
+			"cohort_val": 30,
+			"total_val": 42
+		},
+		{
+			"year": "2016",
+			"user_val": 86,
+			"cohort_val": 25,
+			"total_val": 42
+		},
+		{
+			"year": "2017",
+			"user_val": 22,
+			"cohort_val": 24,
+			"total_val": 53
+		},
+		{
+			"year": "2018",
+			"user_val": 13,
+			"cohort_val": 52,
+			"total_val": 533
+		},
+		{
+			"year": "2019",
+			"user_val": 82,
+			"cohort_val": 52,
+			"total_val": 21
+		}
+	]
+}

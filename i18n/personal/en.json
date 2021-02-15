@@ -1,0 +1,72 @@
+{
+  "labels": {
+    "lbl_personal_header": "enข้อมูลผู้ใช้งาน",
+    "lbl_first_name": "enชื่อ",
+    "lbl_user_email": "enอีเมล",
+    "lbl_user_role": "enโรล",
+    "btn_cancel": "enยกเลิก",
+    "btn_pop_cancel": "enยกเลิก",
+    "btn_pop_save": "enบันทึก",
+    
+    "btn_filter": "enกรอง",
+    "btn_add": "+ enเพิ่มผู้ใช้งาน",
+    "lbl_pop_user_name": "enชื่อผู้ใช้งาน",
+    "lbl_pop_fisrt_name": "enชื่อ",
+    "lbl_pop_last_name": "enนามสกุล",
+    "lbl_pop_user_email": "enอีเมล",
+    "lbl_pop_user_company": "enชื่อ",
+    "lbl_pop_user_mobile": "enเบอร์มือถือ",
+    "lbl_pop_user_password": "enรหัสผ่าน",
+    "lbl_pop_user_role": "enโรล",
+    "lbl_pop_user_group": "enกลุ่ม",
+    "lbl_calendar_header":"enตารางรายเดือน"
+  },
+  "kendoGridHeaders": {
+    "grd_personal": {
+      "first_name": "enชื่อ",
+      "user_role": "enโรล",
+      "user_email": "enอีเมล",
+      "user_company": "enบริษัท"
+
+    }
+  },
+  "placeholders": {
+    "txt_pop_user_name": "enกรอกชื่อผู้ใช้งาน",
+    "txt_pop_fisrt_name": "enกรอกชื่อ",
+    "txt_pop_last_name": "enกรอกนามสกุล",
+    "txt_pop_user_email": "enกรอกชื่อผู้ใช้งาน",
+    "txt_pop_user_company": "enกรอกชื่อ",
+    "txt_pop_user_mobile": "enกรอกเบอร์มือถือ",
+    "txt_pop_user_password": "enกรอกรหัสผ่าน",
+    "txt_pop_user_role": "enกรอกโรล",
+    "txt_pop_user_group": "enกรอกกลุ่ม",
+        "txt_first_name": "enกรอกชื่อ",
+    "txt_user_email": "enกรอกอีเมล",
+    "txt_user_role": "enกรอกโรล"
+  },
+  "messages": {
+    "errors": {
+      "e00001": {
+        "elementId": "txt_first_name",
+        "type": "text",
+        "feedbackId": "err_txt_first_name",
+        "template": false,
+        "message": "ENยังไม่ได้กรอกชื่อ"
+      },
+      "e00002": {
+        "elementId": "err_txt_user_email",
+        "type": "text",
+        "feedbackId": "err_txt_user_email",
+        "template": false,
+        "message": "ENยังไม่ได้กรอกอีเมล"
+      },
+      "e00003": {
+        "elementId": "txt_user_role",
+        "type": "text",
+        "feedbackId": "err_txt_user_role",
+        "template": false,
+        "message": "ENยังไม่ได้กรอกโรล"
+      }
+    }
+  }
+}

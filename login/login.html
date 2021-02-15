@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="kongsak limpitikeat">
+    <meta name="keyword" content="">
+    <title></title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
+</head>
+<body class="c-app flex-row  text-black bg-primary">
+
+    <div class="container bg-primary theme-color col-md-12" style="padding-top: 1em">
+        <div class="col-md-12 bg-primary" >
+           <div class="row  justify-content-center">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <img src="../assets/brand/logo.png"  height="120px" alt="...">
+                </div> </div>
+                <div class="col-md-8 text-right">
+                 <li class="c-header-nav-item dropdown mx-2">
+                    <a id="dp_lang" class="c-header-nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <svg class="c-icon c-icon-xl">
+                            <use id="dp_lang_img" xlink:href="../vendors/@coreui/icons/sprites/flag.svg#cif-th"></use>
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right p-0">
+                        <a id="dp_lang-gb" class="dropdown-item" href="#">
+                            <svg class="c-icon mfe-2 c-icon-xl">
+                                <use id="dp_lang_img-gb" xlink:href="../vendors/@coreui/icons/sprites/flag.svg#cif-gb"></use>
+                            </svg>
+                        <label id="lbl_eng"  ></label></a>
+                        <a id="dp_lang-th" class="dropdown-item active" href="#">
+                            <svg class="c-icon mfe-2 c-icon-xl">
+                                <use id="dp_lang_img-th" xlink:href="../vendors/@coreui/icons/sprites/flag.svg#cif-th"></use>
+                            </svg>
+                        <label id="lbl_thai"  ></label></a>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <div class="container align-items-center bg-secondary theme-color col-md-4" style="padding: 0.5em;padding-bottom: 0.5em">
+      <div class="container bg-primary " style="padding: 0.75em;">
+
+        <div class="" style="padding: 0.5em;">
+
+          <div class="row  justify-content-center">
+             <div class="col-md-12">
+              <div class="card-group">
+                <div class="card p-4">
+                  <div class="card-body">
+                    <div class="form-group col-sm-12">
+                        <img src="../assets/brand/logo.png" alt="...">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">&nbsp</div>
+                        <div class="col-md-8  h4 justify-content-center">
+
+                            <label id="lbl_login_header"  for="lbl_login_header"></label>
+                     </div>
+
+                     <div class="col-md-2">&nbsp</div>
+                 </div>
+                 <div class="form-group">
+                    <label id="lbl_emailid" for="txt_emailid"></label>
+                    <input class="form-control" id="txt_emailid" type="text">
+                    <div id="err_name" class="k-invalid-feedback"></div>
+                </div>
+
+                <div class="form-group">
+                    <label id="lbl_password" for="txt_password"></label>
+                    <input class="form-control" id="txt_password" type="text">
+                    <div id="err_name" class="k-invalid-feedback"></div>
+                </div>
+
+                <div class="row mb-12 align-items-center">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4">
+                      <button class="btn btn-pill btn-block btn-primary" type="button" id="btn_login"></button>
+                  </div>
+                  <div class="col-md-4">
+                  </div>
+
+
+              </div>
+              <div class="row">
+                &nbsp;
+            </div>
+            <div class="row">
+                <div class="col-6 text-left text-muted">
+                  <input class="form-check-input" id="check2" type="checkbox" value="">
+                  <label class="form " for="check2"><label id="lbl_keep_me_sign" ></label></label>
+              </div>
+              <div class="col-6 text-right text-muted">
+                <button class="btn btn-link px-0" type="button"><label id="lbl_forgot_password" ></label></button>
+            </div>                
+        </div>
+        <div class="row">
+          <div class="col-12 text-right text-muted  padding-bottom">
+            <br><label id="lbl_contact_admin" ></label>
+        </div>
+    </div>
+</div>
+
+
+</div> 
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</body>
+
+<script src="../vendors/jquery/jquery-3.5.1.min.js"></script>
+<script type="module" src="login.js"></script>
+<!-- CoreUI and necessary plugins-->
+<script src="../vendors/@coreui/coreui-pro/js/coreui.bundle.min.js"></script>
+<!--[if IE]><!-->
+<script src="../vendors/@coreui/icons/js/svgxuse.min.js"></script>
+<!--<![endif]-->
+<!-- Plugins and scripts required by this view-->
+<script src="../vendors/@coreui/utils/js/coreui-utils.js"></script>
+<script src="../js/main.js"></script>
+<script>
+    // TODO: start initial require js script variable data
+    let currentLang = "en";
+    const i18nUrl = "../i18n/login";
+    // TODO: end initial require js script variable data
+</script>
+</html>

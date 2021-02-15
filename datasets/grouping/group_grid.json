@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "message_code": "PSI00001",
+  "message": "Read data success",
+  "total": 11,
+  "datas": [
+    {
+      "group_id": "G0001",
+      "group_name": "Group Name 0001",
+      "company_id": "COM0001",
+      "company_name": "Company Name 0001"
+    },
+    {
+      "group_id": "G0001",
+      "group_name": "Group Name 0001",
+      "company_id": "COM0002",
+      "company_name": "Company Name 0002"
+    },
+    {
+      "group_id": "G0002",
+      "group_name": "Group Name 0002",
+      "company_id": "COM0002",
+      "company_name": "Company Name 0004"
+    },
+    {
+      "group_id": "G0002",
+      "group_name": "Group Name 0002",
+      "company_id": "COM0001",
+      "company_name": "Company Name 0001"
+    },
+    {
+      "group_id": "G0003",
+      "group_name": "Group Name 0003",
+      "company_id": "COM0004",
+      "company_name": "Company Name 0001"
+    },{
+      "group_id": "G0004",
+      "group_name": "Group Name 0004",
+      "company_id": "COM0001",
+      "company_name": "Company Name 0001"
+    },
+    {
+      "group_id": "G0005",
+      "group_name": "Group Name 0005",
+      "company_id": "COM0002",
+      "company_name": "Company Name 0001"
+    },
+    {
+      "group_id": "G0006",
+      "group_name": "Group Name 0006",
+      "company_id": "COM0002",
+      "company_name": "Company Name 0001"
+    },
+    {
+      "group_id": "G0007",
+      "group_name": "Group Name 0007",
+      "company_id": "COM0003",
+      "company_name": "Company Name 0001"
+    },
+    {
+      "group_id": "G0008",
+      "group_name": "Group Name 0008",
+      "company_id": "COM0004",
+      "company_name": "Company Name 0001"
+    }
+
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "labels": {
+    "lbl_personal_header": "ข้อมูลผู้ใช้งาน",
+    "lbl_name": "ชื่อ",
+    "lbl_lastname": "นามสกุล",
+    "lbl_age": "อายุ",
+    "btn_cancel": "ยกเลิก",
+    "btn_save": "บันทึก"
+  },
+  "kendoGridHeaders": {
+    "grd_personal": {
+      "name": "ชื่อ",
+      "last_name": "นามสกุล",
+      "age": "อายุ",
+      "birth_date": "วันเกิด"
+    }
+  },
+  "placeholders": {
+    "txt_name": "กรอกชื่อ",
+    "txt_lastname": "กรอกนามสกุล",
+    "txt_age": "กรอกอายุ"
+  },
+  "messages": {
+    "errors": {
+      "e00001": {
+        "elementId": "txt_name",
+        "type": "text",
+        "feedbackId": "err_name",
+        "template": false,
+        "message": "ยังไม่ได้กรอกชื่อ"
+      },
+      "e00002": {
+        "elementId": "txt_lastname",
+        "type": "text",
+        "feedbackId": "err_lastname",
+        "template": false,
+        "message": "ยังไม่ได้กรอกนามสกุล"
+      },
+      "e00003": {
+        "elementId": "txt_age",
+        "type": "text",
+        "feedbackId": "err_age",
+        "template": true,
+        "message": "อายุ: ${sources['age']} ไม่ถูกต้อง"
+      }
+    }
+  }
+}

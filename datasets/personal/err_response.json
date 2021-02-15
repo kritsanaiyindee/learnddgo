@@ -1,0 +1,24 @@
+{
+  "success": false,
+  "message_code": "PSE00001",
+  "message": "invalid request",
+  "total": 0,
+  "forward_url": "https://error.com",
+  "errors": [
+    {
+      "message_code": "e00001",
+      "message": "Name is require"
+    },
+    {
+      "message_code": "e00002",
+      "message": "Last Name is require"
+    },
+    {
+      "message_code": "e00003",
+      "message": "Age: -3 invalid",
+      "sources": {
+        "age": -3
+      }
+    }
+  ]
+}

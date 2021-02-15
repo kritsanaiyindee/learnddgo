@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "message_code": "PSI00001",
+  "message": "Read data success",
+  "total": 12,
+  "datas": [
+    {
+      "company_id": "COM0001",
+      "company_name": "Company Name 0001"
+    },
+    {
+      "company_id": "COM0002",
+      "company_name": "Company Name 0002"
+    },
+    {
+      "company_id": "COM0003",
+      "company_name": "Company Name 0003"
+    }
+    ,
+    {
+      "company_id": "COM0004",
+      "company_name": "Company Name 0004"
+    }
+    ,
+    {
+      "company_id": "COM0005",
+      "company_name": "Company Name 0005"
+    }
+    ,
+    {
+      "company_id": "COM0006",
+      "company_name": "Company Name 0006"
+    }
+    ,
+    {
+      "company_id": "COM0007",
+      "company_name": "Company Name 0007"
+    }
+    ,
+    {
+      "company_id": "COM0008",
+      "company_name": "Company Name 0008"
+    }
+    ,
+    {
+      "company_id": "COM0009",
+      "company_name": "Company Name 0009"
+    }
+    ,
+    {
+      "company_id": "COM0010",
+      "company_name": "Company Name 0010"
+    }
+    ,
+    {
+      "company_id": "COM0011",
+      "company_name": "Company Name 0011"
+    }
+    ,
+    {
+      "company_id": "COM0012",
+      "company_name": "Company Name 0012"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "flag_img_url": "../vendors/@coreui/icons/sprites/flag.svg",
+  "img_attribute": "xlink:href",
+  "element_id": "dp_lang",
+  "element_img_id": "dp_lang_img",
+  "languages": {
+    "en": {
+      "element_id": "dp_lang-gb",
+      "img_sprites_code": "cif-gb",
+      "element_img_id": "dp_lang_img-gb"
+    },
+    "th": {
+      "element_id": "dp_lang-th",
+      "img_sprites_code": "cif-th",
+      "element_img_id": "dp_lang_img-th"
+    }
+  }
+}

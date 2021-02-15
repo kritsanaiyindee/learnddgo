@@ -1,0 +1,72 @@
+{
+  "labels": {
+    "lbl_personal_header": "รายชื่อผู้ใช้งาน",
+    "lbl_first_name": "ชื่อ",
+    "lbl_user_email": "อีเมล",
+    "lbl_user_role": "โรล",
+    "btn_cancel": "ยกเลิก",
+    "btn_pop_cancel": "ยกเลิก",
+    "btn_pop_save": "บันทึก",
+    
+    "btn_filter": "กรอง",
+    "btn_add": "+ เพิ่มผู้ใช้งาน",
+    "lbl_pop_user_name": "ชื่อผู้ใช้งาน",
+    "lbl_pop_fisrt_name": "ชื่อ",
+    "lbl_pop_last_name": "นามสกุล",
+    "lbl_pop_user_email": "อีเมล",
+    "lbl_pop_user_company": "ชื่อ",
+    "lbl_pop_user_mobile": "เบอร์มือถือ",
+    "lbl_pop_user_password": "รหัสผ่าน",
+    "lbl_pop_user_role": "โรล",
+    "lbl_pop_user_group": "กลุ่ม",
+    "lbl_calendar_header":"ตารางรายเดือน"
+  },
+  "kendoGridHeaders": {
+    "grd_personal": {
+      "first_name": "ชื่อ",
+      "user_role": "โรล",
+      "user_email": "อีเมล",
+      "user_company": "บริษัท"
+
+    }
+  },
+  "placeholders": {
+    "txt_pop_user_name": "กรอกชื่อผู้ใช้งาน",
+    "txt_pop_fisrt_name": "กรอกชื่อ",
+    "txt_pop_last_name": "กรอกนามสกุล",
+    "txt_pop_user_email": "กรอกชื่อผู้ใช้งาน",
+    "txt_pop_user_company": "กรอกชื่อ",
+    "txt_pop_user_mobile": "กรอกเบอร์มือถือ",
+    "txt_pop_user_password": "กรอกรหัสผ่าน",
+    "txt_pop_user_role": "กรอกโรล",
+    "txt_pop_user_group": "กรอกกลุ่ม",
+    "txt_first_name": "กรอกชื่อ",
+    "txt_user_email": "กรอกอีเมล",
+    "txt_user_role": "กรอกโรล"
+  },
+  "messages": {
+    "errors": {
+      "e00001": {
+        "elementId": "txt_first_name",
+        "type": "text",
+        "feedbackId": "err_txt_first_name",
+        "template": false,
+        "message": "ยังไม่ได้กรอกชื่อ"
+      },
+      "e00002": {
+        "elementId": "err_txt_user_email",
+        "type": "text",
+        "feedbackId": "err_txt_user_email",
+        "template": false,
+        "message": "ยังไม่ได้กรอกอีเมล"
+      },
+      "e00003": {
+        "elementId": "txt_user_role",
+        "type": "text",
+        "feedbackId": "err_txt_user_role",
+        "template": false,
+        "message": "ยังไม่ได้กรอกโรล"
+      }
+    }
+  }
+}

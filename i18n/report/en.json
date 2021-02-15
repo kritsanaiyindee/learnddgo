@@ -1,0 +1,48 @@
+{
+  "labels": {
+    "lbl_personal_header": "Personal",
+    "lbl_name": "First Name",
+    "lbl_lastname": "Last Name",
+    "lbl_age": "Age",
+    "btn_cancel": "Cancel",
+    "btn_save": "Save"
+  },
+  "kendoGridHeaders": {
+    "grd_personal": {
+      "name": "Name",
+      "last_name": "Last Name",
+      "age": "Age",
+      "birth_date": "Birth Date"
+    }
+  },
+  "placeholders": {
+    "txt_name": "Enter your name",
+    "txt_lastname": "Enter your last name",
+    "txt_age": "Enter your age"
+  },
+  "messages": {
+    "errors": {
+      "e00001": {
+        "elementId": "txt_name",
+        "type": "text",
+        "feedbackId": "err_name",
+        "template": false,
+        "message": "Name is require"
+      },
+      "e00002": {
+        "elementId": "txt_lastname",
+        "type": "text",
+        "feedbackId": "err_lastname",
+        "template": false,
+        "message": "Last name is require"
+      },
+      "e00003": {
+        "elementId": "txt_age",
+        "type": "text",
+        "feedbackId": "err_age",
+        "template": true,
+        "message": "Age: ${sources['age']} invalid"
+      }
+    }
+  }
+}
